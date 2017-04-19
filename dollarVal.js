@@ -5,6 +5,4 @@ function convertedVal( number ) {
   return '$' + number.toLocaleString();
 }
 
-
-
 module.exports = convertedVal;
