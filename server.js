@@ -2,8 +2,6 @@
 // the following output:
 
 var http = require( 'http' );
-var rando = require( './rando' );
-var dollarVal = require( './dollarVal' );
 var balance = require( './balance' );
 
 http.createServer(function( req, res ){
